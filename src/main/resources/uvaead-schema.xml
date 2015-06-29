@@ -88,7 +88,7 @@
       <description>When the first paragraph starts with "Letters of" or "Papers of", consider it the title.</description>
       <match>
         <block>
-          <elementmatch type="pattern" id="title" position="first">(Letters of.*)|(Papers of.*)</elementmatch>
+          <elementmatch type="pattern" id="title" position="first">(Letters of.*)|(Papers of.*)|(.* Papers)</elementmatch>
         </block>
       </match>
       <action>
